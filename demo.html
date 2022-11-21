@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function bang() {
+        let n = +prompt('Nhap so vao de:')
+        for (let i = 1; i <= n; i++) {
+
+            document.write(i)
+        }
+    }
+    bang()
+
+    let so=+prompt('nhap so');
+    let kq='la so nt';
+    for (let i=2; i<so; i++){
+        if (so% i == 0){
+            kq= 'khong phai so nt'
+        }
+    }
+    alert(kq)
+
+</script>
+</body>
+</html>
